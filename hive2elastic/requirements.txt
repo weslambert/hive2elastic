@@ -1,0 +1,5 @@
+pymemcache>=2.1.1
+requests>=2.9.1
+PyYAML>=5.1
+thehive4py>=1.6.0
+
