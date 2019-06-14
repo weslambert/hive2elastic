@@ -17,7 +17,6 @@ services:
       - so-elastic-net
     volumes:
       - /etc/hive2elastic/hive2elastic.conf:/hive2elastic/hive2elastic.conf:ro
-      - /etc/hive2elastic/hive2elastic.yaml:/hive2elastic/hive2elastic.yaml:ro
 
 networks:
   so-elastic-net:
