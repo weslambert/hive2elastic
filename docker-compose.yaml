@@ -5,6 +5,7 @@ services:
   memcached:
     container_name: memcached
     image: memcached
+    restart: unless-stopped
     ports:
       - "11211:11211"
     networks:
@@ -13,6 +14,7 @@ services:
   hive2elastic:
     container_name: hive2elastic
     build: /opt/hive2elastic/hive2elastic
+    restart: unless-stopped
     networks:
       - so-elastic-net
     volumes:
