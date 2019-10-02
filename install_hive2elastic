@@ -1,5 +1,5 @@
 #!/bin/bash
-# Install memcached and MISP2Elastic script to correlate MISP threat intel with Elasticsearch events in Security Onion
+# Install memcached and hive2Elastic script to correlate TheHive cases with Elasticsearch events in Security Onion
 
 # Define our vars
 OUT_DIR="/opt/hive2elastic"
@@ -28,7 +28,7 @@ fi
 
 echo "Installation complete!"
 echo
-echo "Specify connection settings for TheHive and interval settings for sending to memcaached in $CONFIG_DIR/hive2elastic.conf."
+echo "Specify connection settings for TheHive and interval settings for sending to memcached in $CONFIG_DIR/hive2elastic.conf."
 echo 
 echo "Start services by running:"
 echo
